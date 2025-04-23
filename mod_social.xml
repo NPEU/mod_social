@@ -69,6 +69,25 @@
                     default="NPEUOxford"
                     showon="enable_youtube:1"
                 />
+                <field
+                    name="enable_bluesky"
+                    type="radio"
+                    label="MOD_SOCIAL_BLUESKY_ENABLE_LABEL"
+                    description="MOD_SOCIAL_BLUESKY_ENABLE_DESC"
+                    default="1"
+                    class="btn-group btn-group-yesno"
+                >
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                </field>
+                <field
+                    name="bluesky"
+                    type="url"
+                    label="MOD_SOCIAL_BLUESKY_LABEL"
+                    description="MOD_SOCIAL_BLUESKY_DESC"
+                    default="npeu-oxford.bsky.social"
+                    showon="enable_bluesky:1"
+                />
             </fieldset>
             <fieldset name="advanced">
 

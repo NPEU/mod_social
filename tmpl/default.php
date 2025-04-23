@@ -25,4 +25,11 @@ defined('_JEXEC') or die;
         </a>
     </p>
     <?php endif; ?>
+    <?php if ($show_bluesky) : ?>
+    <p class="l-box">
+        <a class="c-badge c-badge--limit-height--6  bluesky" href="https://bsky.app/profile/<?php echo $params->get('bluesky'); ?>" rel="external noopener noreferrer" target="_blank">
+            <img alt="Bluesky" height="60" onerror="this.src='/assets/images/brand-logos/social/bluesky.png'; this.onerror=null;" src="/assets/images/brand-logos/social/bluesky.svg">
+        </a>
+    </p>
+        <?php endif; ?>
 </div>

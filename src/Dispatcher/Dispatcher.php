@@ -30,6 +30,7 @@ class Dispatcher extends AbstractModuleDispatcher implements HelperFactoryAwareI
 
         $data['show_twitter'] = (!empty($params->get('enable_twitter', 0)) && !empty($params->get('twitter')));
         $data['show_youtube'] = (!empty($params->get('enable_youtube', 0)) && !empty($params->get('youtube')));
+        $data['show_bluesky'] = (!empty($params->get('enable_bluesky', 0)) && !empty($params->get('bluesky')));
 
 
 
